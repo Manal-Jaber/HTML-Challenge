@@ -1,0 +1,54 @@
+html{
+    background-color:rgb(247, 212, 251);
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color:purple;
+    font-weight: lighter;
+    text-align:center;
+    font-size: xx-large;
+}
+p{
+    color: rgb(37, 8, 42);
+    font-size: larger;
+    text-align: center;
+}
+q{
+    font-style: oblique;
+    font-size: x-large;
+}
+ul{
+    color: rgb(37, 8, 42);
+    font-size: larger;
+    text-align: center;
+    list-style: none;
+}
+select{
+    border-style: none;
+    background-color: khaki;
+    font-size: large;
+    color: purple;
+}
+.colored {
+    color:purple;
+    text-align: center;
+    background-color:khaki;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item{
+    background-color: khaki;
+    font-size: xx-large;
+}
+a.nav-item{
+    width: 15rem;
+    text-decoration: none;
+    border-style: outset;
+    border-radius: 5px;
+    background-color: purple;
+    color: khaki;
+}
