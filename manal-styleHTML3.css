@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+html{
+    background-color: #30494c;
+    
+}
+.site-wrapper{
+    margin: 0 auto;
+    width: 70%;
+}
+.background{
+    z-index: -1;
+    width: 100%;
+}
+.transperant{
+    background-color: transparent;
+    border-style: none;
+}
+.nav-list{
+    background-color: rgb(50, 60, 62);
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-item{
+    text-decoration: none;
+    border-right-style: solid;
+    border-right-color: white;
+}
+aside{
+    margin-right: 0;
+    padding-right: 0;
+}
+.gallery{
+    margin-left: 0;
+    padding-left: 0;
+}
